@@ -2,8 +2,10 @@
   "name": "will-it-miss",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "build": "npx parcel build src/index.html",
+    "dev": "npx parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

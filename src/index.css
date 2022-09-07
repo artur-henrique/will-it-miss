@@ -27,29 +27,29 @@ body {
 
   /* background: #212121; */
   color: #dfdfdf;
+}
 
-  &:before {
-    content: '';
-    position: absolute;
-    left: -150px;
-    width: 100px;
-    height: 200px;
-    background-image: url('./img/asteriod2.svg');
-    background-repeat: no-repeat;
-    background-size: 100px;
-  }
+body:before {
+  content: '';
+  position: absolute;
+  left: -150px;
+  width: 100px;
+  height: 200px;
+  background-image: url('./img/asteriod2.svg');
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
 
-  &:after {
-    content: '';
-    position: absolute;
-    right: -150px;
-    width: 100px;
-    height: 200px;
-    top: 200px;
-    background-image: url('./img/asteriod1.svg');
-    background-repeat: no-repeat;
-    background-size: 100px;
-  }
+body:after {
+  content: '';
+  position: absolute;
+  right: -150px;
+  width: 100px;
+  height: 200px;
+  top: 200px;
+  background-image: url('./img/asteriod1.svg');
+  background-repeat: no-repeat;
+  background-size: 100px;
 }
 
 h1 {
