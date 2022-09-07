@@ -4,14 +4,15 @@
   "description": "",
   "scripts": {
     "start": "node src/index.js",
-    "build": "npx parcel build src/index.html",
     "dev": "npx parcel src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/*.js",
+    "build": "npm run test && parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.27.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.23.0",
     "eslint-plugin-react": "^7.31.7",
